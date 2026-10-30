@@ -1,0 +1,53 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+.nav a:link,
+.nav a:visited {
+  text-decoration: none;
+  color: var(--color-light--2);
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+/* CSS Modules feature */
+.nav a:global(.active) {
+  color: var(--color-brand--2);
+}
+
+a.ctaLink:link,
+a.ctaLink:visited {
+  background-color: var(--color-brand--2);
+  color: var(--color-dark--0);
+  padding: 0.8rem 2rem;
+  border-radius: 7px;
+}
+
+
+/* Responsive layout */
+
+@media (max-width: 640px) {
+  .nav { gap: 1.2rem; }
+  .nav ul { gap: 1.2rem; }
+  .nav a:link,
+  .nav a:visited { font-size: 1.25rem; }
+  a.ctaLink:link,
+  a.ctaLink:visited { padding: 0.7rem 1.1rem; }
+}
+
+@media (max-width: 380px) {
+  .nav ul { gap: 0.8rem; }
+  .nav a:link,
+  .nav a:visited { font-size: 1.1rem; }
+}
+

@@ -1,0 +1,40 @@
+{
+  "cities": [
+    {
+      "cityName": "Berlin",
+      "country": "Germany",
+      "emoji": "🇩🇪",
+      "date": "2027-02-12T09:24:11.863Z",
+      "notes": "Amazing 😃",
+      "position": {
+        "lat": 52.53586782505711,
+        "lng": 13.376933665713324
+      },
+      "id": "98443197"
+    },
+    {
+      "id": "cb06",
+      "cityName": "Birmingham",
+      "country": "United Kingdom",
+      "emoji": "🇬🇧",
+      "date": "2025-02-06T22:47:20.451Z",
+      "notes": "PEAKY BLINDERS",
+      "position": {
+        "lat": 52.466050361889515,
+        "lng": -1.95556640625
+      }
+    },
+    {
+      "id": "9263",
+      "cityName": "Alexandria",
+      "country": "Egypt",
+      "emoji": "🇪🇬",
+      "date": "2025-02-07T00:27:53.743Z",
+      "notes": "🌊🌊🦐",
+      "position": {
+        "lat": 31.175209828310845,
+        "lng": 29.888305664062504
+      }
+    }
+  ]
+}

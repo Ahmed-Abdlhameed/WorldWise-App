@@ -1,0 +1,25 @@
+.app {
+  height: 100vh;
+  padding: 2.4rem;
+  overscroll-behavior-y: none;
+  display: flex;
+  position: relative;
+}
+
+
+/* Responsive layout */
+
+@media (max-width: 900px) {
+  .app { padding: 1.2rem; }
+}
+
+@media (max-width: 640px) {
+  .app {
+    height: 100dvh;
+    min-height: 100dvh;
+    padding: 0;
+    flex-direction: column;
+    overflow: hidden;
+  }
+}
+
