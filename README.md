@@ -164,6 +164,4 @@ Some ideas for future improvements:
 
 ## License & Author
 
-This repository is for personal learning and portfolio purposes. No separate license file is currently included.
-
-Built by **Ahmed Abdelhameed**. Find me on [GitHub](https://github.com/Ahmed-Abdlhameed).
+This repository is for personal learning and portfolio purposes. No separate license file is currently included. Built by **Ahmed Abdelhameed**. Find me on [GitHub](https://github.com/Ahmed-Abdlhameed).
